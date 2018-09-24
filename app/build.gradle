@@ -14,7 +14,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
-        debug{
+        debug {
             buildConfigField 'String', 'URL', '"https://s3-eu-west-1.amazonaws.com/quandoo-assessment/"'
         }
 
